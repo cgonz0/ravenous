@@ -1,4 +1,4 @@
-const apiKey = 'itRRHlXuM4MbxDTnDdo_6-YqzpOlXnv-v6pHO7LLoCHwFUj0Nk-vwtDxODbQTLvnnyZmfsl_Jo0c9IJ0ifgFC1_uEYwGJ-z-_cauwQHOFNhBJv2FNLKNrgGcrZBrW3Yx';
+const apiKey = process.env.REACT_APP_YELP_API_KEY;
 
 //store the functionality needed to interact with the Yelp API
 const Yelp = {
