@@ -4,6 +4,8 @@
   justify-content: space-between;
   width: 16.66rem;
   margin: 0 .5rem 2.3rem .5rem;
+  background: #ffffff;
+  padding: 10px;
 }
 
 .Business .image-container {
@@ -15,6 +17,15 @@
   margin-bottom: .5rem;
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+.Business h3 {
+  color: #CCA353;
+  font-weight: 300;
+}
+
+.category {
+  margin-bottom: 10px;
 }
 
 .Business-information {
@@ -37,7 +48,7 @@
 .Business-reviews {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   text-align: right;
 }
 
