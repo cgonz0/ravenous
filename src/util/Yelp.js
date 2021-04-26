@@ -5,7 +5,7 @@ const Yelp = {
     //method we'll use to retrieve search results from the Yelp API.
   search(term, location, sortBy) {
     //return a promise that will ultimately resolve to our list of businesses
-    return fetch(`https://thingproxy.freeboard.io/fetch/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
+    return fetch(`https://cors.bridged.cc/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
       headers: {
         Authorization: `Bearer ${apiKey}`
       }
